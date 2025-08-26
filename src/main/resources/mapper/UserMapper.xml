@@ -3,11 +3,5 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.example.demo.mapper.UserMapper">
-    <select id="selectById">
-        select * from t_user where id =
-    </select>
-    <select id="getUserById" resultType="com.example.demo.pojo.UserPojo">
-        select * from t_user where id = #{id}
-    </select>
 
 </mapper>

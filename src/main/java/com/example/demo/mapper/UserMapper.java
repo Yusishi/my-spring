@@ -1,9 +1,10 @@
 package com.example.demo.mapper;
 
 
-import com.example.demo.pojo.UserPojo;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.example.demo.po.UserPO;
 
-public interface UserMapper {
+public interface UserMapper extends BaseMapper<UserPO> {
 
-    UserPojo getUserById(Integer id);
+
 }

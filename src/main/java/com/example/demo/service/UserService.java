@@ -1,7 +1,9 @@
 package com.example.demo.service;
 
-import com.example.demo.pojo.UserPojo;
+import com.example.demo.vo.UserVO;
 
 public interface UserService {
-    UserPojo getUserById(Integer id);
+    UserVO getUserById(Long id);
+
+    Long insert(UserVO userVO);
 }
